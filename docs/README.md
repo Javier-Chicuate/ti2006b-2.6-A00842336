@@ -31,11 +31,3 @@ Usaremos el ciclo **Pregunta → Evidencia → Alternativas → Trade-offs → D
 
 Todas las actividades deben preguntar por: valor de negocio, calidad de datos, desempeño, disponibilidad, escalabilidad, seguridad, privacidad, mantenibilidad, costo total, experiencia de usuario, sostenibilidad y reversibilidad de la decisión.
 
-## Evaluación sugerida
-
-- 25% asignaciones individuales y ADRs.
-- 20% actividades y laboratorios.
-- 45% proyecto integrador.
-- 10% revisión por pares y comunicación ejecutiva.
-
-Los porcentajes son un punto de partida y pueden ajustarse al calendario oficial.
