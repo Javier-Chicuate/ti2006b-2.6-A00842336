@@ -14,3 +14,5 @@ Cada asignación debe producir una evidencia pequeña, revisable y conectada a u
 | A08 | Postmortem | ¿Qué aprendimos de una decisión que no funcionó como esperábamos? |
 
 Usar el formato de [`templates/example-repository/docs/adr/ADR-000-template.md`](../templates/example-repository/docs/adr/ADR-000-template.md) para decisiones arquitectónicas.
+
+For capstone projects, use the English [`templates/capstone-example-repository/`](../templates/capstone-example-repository/) template. It adds a standard place for BI dashboards, notebooks, data products, reports, tests, and VS Code/Anaconda configuration.
