@@ -1,0 +1,10 @@
+# Python 3.12. Ruta principal de Actividad 2: conda env create -f environment.yml
+# Alternativa pip para el contrato de la plantilla; no ejecutar sobre conda sin necesidad.
+# Conserva las cuatro dependencias y rangos de la plantilla oficial.
+jupyterlab>=4.0,<5
+nbconvert>=7.0,<8
+pandas>=2.0,<3
+plotly>=5.0,<7
+matplotlib
+jupyter
+ipykernel

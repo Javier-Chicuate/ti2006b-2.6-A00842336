@@ -39,3 +39,16 @@ Cada decisión importante debe incluir:
 ## Licencia
 
 El material original de este repositorio se publica bajo [CC0 1.0 Universal](LICENSE). Las herramientas, datasets y referencias externas conservan sus propias licencias; cada entrega debe documentarlas.
+
+
+## Actividad 2: entorno Python
+
+Consulta [SETUP.md](SETUP.md). Para crear y activar el entorno y ejecutar el script:
+
+```bash
+conda env create -f environment.yml
+conda activate ti2006b-workbench
+python src/hello_ds.py
+```
+
+Abre `notebooks/02_workbench_check.ipynb` en VS Code, selecciona el kernel `ti2006b-workbench`, reinícialo, ejecuta todas las celdas y guarda. La reflexión está en [REFLEXION.md](REFLEXION.md).

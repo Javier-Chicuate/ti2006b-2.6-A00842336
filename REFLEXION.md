@@ -1,0 +1,3 @@
+# Reflexión
+
+El editor, como Visual Studio Code, es donde escribo y organizo el código del proyecto. El intérprete es el programa que ejecuta Python, y por eso importa elegir la versión y el entorno correctos. La lista de paquetes indica qué dependencias necesita el proyecto para poder prepararlo en otra computadora. El kernel ejecuta las celdas del notebook y conserva sus variables, así que conviene reiniciarlo y correr todo para comprobar que no depende de pasos anteriores. Por último, el remoto de Git señala el repositorio de GitHub donde se comparte el historial de cambios, aunque el entorno y el kernel se configuran por separado.

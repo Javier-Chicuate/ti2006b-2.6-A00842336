@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Integrar estas reglas sin borrar las del repositorio existente.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
