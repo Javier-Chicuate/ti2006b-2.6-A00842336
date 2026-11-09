@@ -57,3 +57,5 @@ Abre `notebooks/02_workbench_check.ipynb` en VS Code, selecciona el kernel `ti20
 ### Evidencias de la Actividad 2.7
 
 Dejé mis enlaces de entrega y el PDF con las capturas en [ENTREGA.md](ENTREGA.md). Comprobé el script y el notebook desde VS Code con Python 3.12.16.
+
+Preparé el [reporte en Google Docs](https://docs.google.com/document/d/1q1TUmoSoSPwq4Oi_KDCb0yvNHcoywEEWLsj2kGj9wjM/edit) con mi portada habitual. El PDF de `reports/` es la exportación de ese documento.

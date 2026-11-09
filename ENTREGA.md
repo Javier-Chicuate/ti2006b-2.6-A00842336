@@ -7,3 +7,5 @@ Preparé el entorno `ti2006b-workbench` con Python 3.12.16 y comprobé el script
 - PDF de evidencias: [Actividad_2_7_Evidencias_Javier_Chicuate.pdf](reports/Actividad_2_7_Evidencias_Javier_Chicuate.pdf).
 
 Incluí la configuración del equipo, el problema que resolví y la reflexión de cinco oraciones en el PDF.
+
+Reporte editable en Google Docs, con mi portada habitual: https://docs.google.com/document/d/1q1TUmoSoSPwq4Oi_KDCb0yvNHcoywEEWLsj2kGj9wjM/edit
