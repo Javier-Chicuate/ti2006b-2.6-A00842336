@@ -1,20 +1,23 @@
-# Comprobación de la actividad
+# Comprobación de la Actividad 2
 
-- Equipo: macOS 26.3, Apple Silicon.
-- Anaconda Distribution ya estaba instalada; conda 26.7.3. La versión de la distribución completa no se verificó.
-- Entorno creado: `ti2006b-workbench`, Python 3.12.16.
-- VS Code: Python y Pylance ya estaban instaladas; se instaló Jupyter con sus componentes oficiales.
-- Script ejecutado con el Python del entorno: resultado **14.00 unidades**.
-- Notebook ejecutado completo mediante nbconvert con el kernel local `ti2006b-workbench`: sin errores y con las salidas guardadas.
-- Formato del notebook y espacios del diff comprobados.
-- Cuenta autenticada comprobada: `Javier-Chicuate`. Identidad de Git conservada: `Chicuatin`.
+## Equipo y herramientas
 
-## Problema y solución
+El trabajo se preparó en macOS 26.3 con Apple Silicon. Anaconda Distribution ya estaba instalada y se comprobó conda 26.7.3; la versión de la distribución completa no se verificó. El entorno creado se llama `ti2006b-workbench` y usa Python 3.12.16. En VS Code ya estaban Python y Pylance, y se instaló la extensión oficial Jupyter.
 
-El entorno del proyecto todavía no existía y VS Code no tenía la extensión Jupyter. Se creó el entorno con Python 3.12, se instaló la extensión y se registró su kernel; después el script y el notebook funcionaron con el resultado esperado.
+## Pruebas realizadas
 
-## Evidencia que todavía falta en VS Code
+Se seleccionó `ti2006b-workbench` como intérprete del script y como kernel del notebook en VS Code. El script se ejecutó con **Run Python File** y el notebook con **Run All**. Ambos mostraron **14.00 unidades** como promedio diario. Se guardaron las salidas reales del notebook y se revisó su formato.
 
-El proyecto y el notebook se abrieron en VS Code, pero no se logró comprobar la selección final del intérprete y del kernel desde sus menús. La ejecución registrada se hizo mediante nbconvert, no con el botón Run All del editor. Tampoco se completó la revisión y sincronización desde Source Control: el guardado y envío se realizan mediante Git. Para demostrar esos puntos exactos de la rúbrica, falta elegir `ti2006b-workbench` en Python: Select Interpreter y Select Kernel, ejecutar Run All, guardar y revisar los cambios desde Source Control.
+`environment.yml` se exportó con `conda env export --from-history` y se retiró la línea `prefix:` para evitar una ruta propia del equipo. `requirements.txt` conserva los mismos paquetes directos y los rangos de la plantilla del curso.
 
-Repositorio: https://github.com/Javier-Chicuate/ti2006b-2.6-A00842336. El enlace al commit de esta entrega se proporciona al terminar la sincronización.
+## Problema resuelto
+
+Al comenzar, faltaban el entorno del proyecto y la extensión Jupyter. Además, el script tenía seleccionado el Python 3.9.6 del sistema. Se creó el entorno con Python 3.12, se instaló Jupyter y se eligió el entorno correcto en los dos selectores de VS Code. Después, el script y el notebook dieron el resultado esperado desde el editor.
+
+## Repositorio y entrega
+
+Se usa el repositorio confirmado para esta actividad: https://github.com/Javier-Chicuate/ti2006b-2.6-A00842336. La cuenta de GitHub verificada y la identidad local del nuevo commit son `Javier-Chicuate`.
+
+El PDF pide continuar el Capstone de la Actividad 1 dentro de la organización del equipo. La consulta a `itd-messilovers/ti2006b-capstone` devolvió 404 con la cuenta actual, así que no se pudo comprobar ese repositorio. No se creó ni se cambió una organización. Los archivos se integraron en el repositorio personal que se indicó para este trabajo; queda por confirmar con el profesor si acepta ese destino.
+
+La entrega en la plataforma del curso sigue pendiente: falta indicar cuál es la plataforma o el enlace de la actividad. Los enlaces del repositorio y del commit, junto con esta nota técnica y `REFLEXION.md`, son los elementos para entregar.

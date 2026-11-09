@@ -1,13 +1,12 @@
-# Descripción portable de dependencias solicitadas; no es un lockfile.
 name: ti2006b-workbench
 channels:
   - defaults
 dependencies:
   - python=3.12
-  - pandas>=2.0,<3
-  - matplotlib
-  - jupyter
   - ipykernel
-  - jupyterlab>=4.0,<5
-  - nbconvert>=7.0,<8
-  - plotly>=5.0,<7
+  - plotly[version='>=5.0,<7']
+  - pandas[version='>=2.0,<3']
+  - nbconvert[version='>=7.0,<8']
+  - jupyter
+  - matplotlib
+  - jupyterlab[version='>=4.0,<5']

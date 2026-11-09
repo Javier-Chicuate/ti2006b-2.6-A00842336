@@ -230,3 +230,6 @@ venv/
 .env
 .env.*
 .DS_Store
+
+# Configuración local del editor: puede contener rutas del equipo.
+.vscode/settings.json
