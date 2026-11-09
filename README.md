@@ -52,3 +52,8 @@ python src/hello_ds.py
 ```
 
 Abre `notebooks/02_workbench_check.ipynb` en VS Code, selecciona el kernel `ti2006b-workbench`, reinícialo, ejecuta todas las celdas y guarda. La reflexión está en [REFLEXION.md](REFLEXION.md).
+
+
+### Evidencias de la Actividad 2.7
+
+Dejé mis enlaces de entrega y el PDF con las capturas en [ENTREGA.md](ENTREGA.md). Comprobé el script y el notebook desde VS Code con Python 3.12.16.
