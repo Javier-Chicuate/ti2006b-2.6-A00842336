@@ -6,6 +6,7 @@ dependencies:
   - ipykernel
   - plotly[version='>=5.0,<7']
   - pandas[version='>=2.0,<3']
+  - scikit-learn[version='>=1.4,<2']
   - nbconvert[version='>=7.0,<8']
   - jupyter
   - matplotlib
